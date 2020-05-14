@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-color: #3f3f44;
+}
+.kjero-contenedor{
+  height: 500px;
+  width: 50%;
+  background-color: #f7f7f7;
+  position: relative;
+  margin: 0px auto;
+}
+.botones{
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+.datos{
+  position: absolute;
+  left: 50px;
+  width: 87%;
+  height: 200px;
+  background-color: blue;
+  border: 3px solid black;
+}
+button,
+.costado1,
+.costado2,
+.letras,
+h2,
+hr{
+  position: absolute;
+}
+.letras{
+  top: 260px;
+  left: 350px;
+}
+.costado2{
+  right: 45px;
+}
+.option1,
+.option2,
+.option3,
+.option4,
+.option,
+h2,
+hr{
+  display: inline-block;
+}
+.option1{
+  top: 20px;
+}
+.option2{
+  top: 50px;
+}
+.option3{
+  top: 80px;
+}
+.option4{
+  top: 110px;
+}
+.option{
+  top: 20px;
+  left: 150px;
+}
+#cancel{
+  height: 25px;
+  width: 90px;
+}
+#clear{
+  margin-top: 30px;
+  height: 25px;
+  width: 90px;
+}
+#ok{
+  margin-top: 60px;
+  height: 25px;
+  width: 90px;
+}
+#button1,
+#button4,
+#button7,
+#buttonnada{
+  margin-left:  5px;
+  width: 30px;
+  height: 25px;
+}
+#button2,
+#button5,
+#button8,
+#button0{
+  margin-left:  48px;
+  width: 30px;
+  height: 25px;
+}
+#button3,
+#button6,
+#button9,
+#buttonp{
+  margin-left:  90px;
+  width: 30px;
+  height: 25px;
+}
+.rece{
+  left: 200px;
+}
+.cash{
+  top: 80px;
+}
+.depo{
+  top: 160px;
+}
+#first,
+#four{
+  margin-top: 60px;
+  width: 40px;
+
+}
+#second,
+#five{
+  margin-top: 90px;
+  width: 40px;
+
+}
+#third,
+#six{
+  margin-top: 120px;
+  width: 40px;
+
+}
+#first,
+#second,
+#third{
+  margin-left: 5px;
+}
+hr{
+  width: 100px;
+  height: 10px;
+  background-color: black;
+  margin-top:  40px;
+  border: 10px solid #dddddd;
+}
+#cash,
+#depo{
+  width: 300px;
+}
